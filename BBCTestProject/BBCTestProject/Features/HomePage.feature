@@ -7,4 +7,4 @@
 @test
 Scenario: Check that Home Page is oppened
 	Given I am on the Home Page main page
-	And I see the text 
+	And I see the text 'Learning English'

@@ -85,7 +85,7 @@ this.ScenarioInitialize(scenarioInfo);
 #line 9
  testRunner.Given("I am on the Home Page main page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line 10
- testRunner.And("I see the text", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("I see the text \'Learning English\'", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             this.ScenarioCleanup();
         }

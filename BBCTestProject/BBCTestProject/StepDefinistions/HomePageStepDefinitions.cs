@@ -1,4 +1,5 @@
 ﻿using BBCTestProject.PageObject;
+using FluentAssertions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,11 +19,11 @@ namespace BBCTestProject.StepDefinistions
          
         }
 
-        [Given( @"I see the text" )]
-        public void GivenISeeTheText()
+        [Given( @"I see the text '(.*)'" )]
+        public void GivenISeeTheText( string expectedHeaderText )
         {
-            
+            var currentText = new HomePage().Header.Text;
+            currentText.Should().NotBeEmpty( expectedHeaderText, "because the header text shoud be must be the same as expected" );
         }
-
     }
 }
