@@ -129,7 +129,9 @@
     <Compile Include="StepDefinistions\Hooks.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="allureConfig.Template.json" />
+    <None Include="allureConfig.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="App.config" />
     <None Include="Features\HomePage.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
