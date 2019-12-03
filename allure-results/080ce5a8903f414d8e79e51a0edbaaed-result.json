@@ -1,0 +1,72 @@
+{
+  "uuid": "b6318b8d42db4ab79c29b731544cc3da",
+  "historyId": "Check that Home Page is oppened",
+  "fullName": "Check that Home Page is oppened",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-8PO2C3T"
+    },
+    {
+      "name": "feature",
+      "value": "HomePage"
+    },
+    {
+      "name": "tag",
+      "value": "mytag"
+    },
+    {
+      "name": "tag",
+      "value": "test"
+    }
+  ],
+  "links": [],
+  "name": "Check that Home Page is oppened",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am on the Home Page main page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1575403784229,
+      "stop": 1575403790092
+    },
+    {
+      "name": "And  I see the text 'Learning English'",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1575403790095,
+      "stop": 1575403790359
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1575403784172,
+  "stop": 1575403790364
+}
